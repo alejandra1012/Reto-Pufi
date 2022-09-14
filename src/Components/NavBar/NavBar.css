@@ -1,0 +1,60 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    position:absolute;
+    
+}
+
+.logoPufi{
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo{
+    width: 100px;
+}
+.navbar a{
+    color: white;
+
+}
+a{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.containerIcon{
+    display: flex;
+    width: 450px;
+}
+
+.iconos{
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos img{
+    width: 40px;
+    height: 40px;
+}
+.final {
+    border-right: none;
+}
+
+.miCuenta{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    border: none;
+}

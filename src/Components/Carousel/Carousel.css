@@ -1,0 +1,25 @@
+.carousel-item{
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+
+.eslogan{
+    position: relative;
+    margin-top: -488px;
+}
+
+h1{
+    font-size: xxx-large;
+    color: #f8f9fa;
+    margin-bottom: 303px;
+}
+
+.botonShop{
+    background-color: transparent;
+    border-color: white;
+    width: 127px;
+    height: 55px;
+    font-family: monospace;
+    color: white;
+}

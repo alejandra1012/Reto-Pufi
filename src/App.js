@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
+import EspufApi from './Components/EspufApi/EspufApi';
+import Carousel from './Components/Carousel/Carousel';
+import PufiPuff from './Components/PufiPuff/PufiPuff';
+import PufiRain from './Components/PufiRain/PufiRain';
+import PufiCar from './Components/PufiCar/PufiCar';
+import PufiNap from './Components/PufiNap/PufiNap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <NavBar />
+      <Carousel />
+      <PufiPuff />
+      <PufiRain />
+      <PufiCar />
+      <PufiNap />
+      <EspufApi />
     </div>
   );
 }
