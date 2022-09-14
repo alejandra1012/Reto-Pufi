@@ -1,0 +1,33 @@
+.containerCollage{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-weight: bold;
+    color: gray;
+    font-size: small;
+    font-family: -webkit-body;
+    margin-top: 60px;
+}
+.espufi{
+    margin-bottom: 70px;
+}
+.imgCollage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imgCollage img{
+    width: 200px;
+    height: 200px;
+}
+
+.suscrib{
+    margin-bottom: 0%;
+}
+h6{
+    margin-bottom: 20px;
+}

@@ -34,7 +34,7 @@ const Carousel = () => {
         </button>
       </div>
       <div className='eslogan'>
-        <h1>Estar comodo nunca fue tan facil</h1>
+        <h1>ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL</h1>
         <button className='botonShop'>SHOP</button>
       </div>
       ;

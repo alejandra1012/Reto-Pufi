@@ -1,20 +1,21 @@
 import React from 'react';
-import pufiPlaya from '../../assets/images/pufiPlaya.jpg';
 import puff from '../../assets/images/puff1.png';
+import iconoMayor from '../../assets/images/mayorQ.png';
 import style from '../PufiPuff/PufiPuff.module.css';
 
 const PufiPuff = () => {
   return (
-    <div className={style.container1}>
-      <div>
-        <img className='puff' src={puff} alt='' />
+    <div id='pufiPuff' className={style.container1}>
+      <div className={style.infoPufiPuff}>
+        <img className={style.puff} src={puff} alt='' />
         <h2>pufi PUFF</h2>
-        <h6>Descripcion del producto</h6>
-        <a href='/'>VER MAS</a>
+        <hr />
+        <h6>Descripción del producto</h6>
+        <a href='/'>
+          <img className={style.mayorQ} src={iconoMayor} alt='' /> VER MAS
+        </a>
       </div>
-      <div>
-        <img src={pufiPlaya} alt='pufi en la playa' />
-      </div>
+      <div className={style.imgPufiPuff}></div>
     </div>
   );
 };

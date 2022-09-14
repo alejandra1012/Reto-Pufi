@@ -14,25 +14,25 @@ const NavBar = () => {
         </div>
         <div className='containerIcon'>
           <div className='iconos'>
-            <a href='/'>
+            <a href='#pufiPuff'>
               <img src={puff} alt='incono puff' />
               PUFI PUFF
             </a>
           </div>
           <div className='iconos'>
-            <a href='/'>
+            <a href='#PufiRain'>
               <img src={sombrilla} alt='incono sombrilla' />
               PUFI RAIN
             </a>
           </div>
           <div className='iconos'>
-            <a href='/'>
+            <a href='#PufiCar'>
               <img src={bolsaCompra} alt='incono bolsa compra' />
               PUFI CART
             </a>
           </div>
           <div className='iconos final'>
-            <a href='/'>
+            <a href='#PufiNap'>
               <img src={almohada} alt='incono almohada' />
               PUFI NAP
             </a>

@@ -1,0 +1,54 @@
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;    
+}
+
+.imgPufiRain{
+    align-items: center;
+    background-image: url(../../assets/images/pufiRain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+a{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    font-family: -webkit-body;
+    font-size: small;
+}
+
+.mayorQ{
+    width: 8px;
+    margin-right: 10px;
+}
+
+.infoPufiRain{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.umbrella{
+    width: 175px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+hr{
+    border-top: 2px solid #040404;
+    color: inherit;
+    margin: 1rem 0;
+    opacity: .25;
+    width: 30px;
+}
+h6{
+    color: gray;
+}
